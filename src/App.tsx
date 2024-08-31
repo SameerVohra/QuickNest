@@ -1,13 +1,12 @@
-
-import './App.css'
+import './App.css';
+import Home from "./components/Home";
 
 function App() {
-
   return (
-    <>
-    <h1 className='text-red-500'>HELLO</h1>
-    </>
-  )
+    <div className='min-h-screen bg-orange-100 p-10'>
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
