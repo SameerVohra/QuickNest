@@ -25,7 +25,7 @@ interface Tasks {
     };
   
     return (
-      <div className="flex flex-col items-center space-y-4 mt-5">
+      <div className="flex flex-col items-center space-y-4 m-5">
         {TaskArr && TaskArr.length > 0 ? (
           TaskArr.map((t, ind) => (
             <div
