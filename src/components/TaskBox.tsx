@@ -20,7 +20,7 @@ const TaskBox: React.FC<TaskProps> = ({ TaskArr, onDelete }) => {
       case 'high':
         return 'bg-orange-500';
       case 'critical':
-        return 'bg-red-300';
+        return 'bg-red-400';
       default:
         return 'bg-gray-300';
     }
