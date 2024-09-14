@@ -28,7 +28,7 @@ const Home: React.FC = () => {
   };
 
   const handleDeleteTask = (taskToDelete: TaskInterface) => {
-    setTasks((prevTasks) => prevTasks.filter(task => task !== taskToDelete));
+    setTasks((prevTasks) => prevTasks.filter(task => task !== taskToDelete)); 
   };
 
   return (
